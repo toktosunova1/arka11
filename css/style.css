@@ -1,3 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.body {
+    font-family: "lato", sans-serif;
+}
+
+.product-block {
+    width: 1200px;
+    height: 1356px;
+    padding-bottom: 50px;
+    border: 2px solid rgba(54, 12, 12, 0.11);
+}
+
+.product-icon {
+    display: flex;
+    margin-left: 100px;
+    color: yellow;
+}
+
+
+
+.product-icon p {
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #011F3A;
+}
+
+.product-image {
+    margin-top: 70px;
+    margin-bottom: 200px;
+}
+
+.product-image img {
+    margin-bottom: 20px;
+}
+
+.product-top ion-icon {
+    color: yellow;
+
+}
+
+.product-top {
+    margin-top: 70px;
+    margin-bottom: 200px;
+}
+
+.product-top img {
+    margin-bottom: 20px;
+}
+
+.star {
+    display: flex;
+
+}
+
+.star p {
+    margin-left: 20px;
+}
+
+.product-top img {
+    margin-left: -90px;
+}
+
+
+.product-title {
+    display: flex;
+}
+
+.product-title h1 {
+    font-weight: 400;
+    font-size: 24px;
+    color: #011F3A;
+}
+
+.car {
+    display: flex;
+    margin-left: -300px;
+    margin-top: 100px;
+}
+
+.car img {
+    margin-top: 20px;
+    width: 60px;
+    height: 60px;
+}
+
+.car-same button{
+    margin-left: 200px;
+    width: 160px;
+    height: 40px;
+    color: #A1A1A1;
+    border: none;
+    border-radius: 44px;
+    transition: .4s;
+}
+
+
+.car-same button:hover {
+    transform: scale(1.2);
+    background: aquamarine;
+}
+
+.car-same h2 {
+    margin-top: 20px;
+
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #011F3A;
+}
+
+.car-same p {
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #A1A1A1;
+}
+
+.product-title h1 {
+    margin-left: 100px;
+}
+
+.adi h1 {
+    margin-left: 100px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #011F3A;
+}
+
+.adi {
+    margin-top: 100px;
+    width: 580px;
+    height: 290px;
+}
+
+.adi-car {
+    margin-left: 100px;
+    display: flex;
+}
+
+.adi-car h2 {
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #011F3A;
+}
+
+.adi-car p {
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #A1A1A1;
+}
+
+.adi-car button {
+    width: 160px;
+    height: 40px;
+    margin-left: 70px;
+    border: none;
+    border-radius: 44px;
+    transition: .4s;
+}
+
+.adi-car button:hover {
+    transform: scale(1.2);
+    background: aquamarine;
+}
+
+.what {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+=======
 *{
     margin: 0;
     padding: 0;
